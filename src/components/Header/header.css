@@ -1,0 +1,28 @@
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.header-child-div {
+  gap: 5rem;
+}
+
+header .header-child-div {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  list-style: none;
+  font-size: 1.5rem;
+  gap: 5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
