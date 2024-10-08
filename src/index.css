@@ -83,11 +83,12 @@ h1 {
 @media (max-width: 550px) {
   .card-main-container {
     width: 100%;
-    gap: 1px;
+    gap: 27px;
   }
 
   .cards {
-    width: 180px;
+    width: 160px;
+    height: 250px;
   }
 
   .cards img {
@@ -104,6 +105,10 @@ h1 {
 /* Mobile-Hamburger Media Quary */
 
 @media (max-width: 720px) {
+  .carousel ul.control-dots {
+    display: none;
+  }
+
   .mobile-navbar {
     flex-direction: column;
     position: absolute;
